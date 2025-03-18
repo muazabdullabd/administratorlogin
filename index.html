@@ -4,8 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Administrator Login</title>
+    <link rel="icon" type="image/x-icon" href="https://th.bing.com/th/id/OIP.f8Pvs4-69iITm9c2Ue_dmAHaHa?pid=ImgDet&w=191&h=191&c=7">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&family=Noto+Sans+ExtraCondensed:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script>
+        document.addEventListener('contextmenu', function(e) {
+          e.preventDefault();
+        });
+
+        document.addEventListener('keydown', function(e) {
+          if (e.keyCode === 123) { // F12
+           e.preventDefault();
+          }
+        });
+
+        document.addEventListener('keydown', function(e) {
+          if (e.ctrlKey && e.shiftKey && e.keyCode === 73) { // Ctrl+Shift+I
+        e.preventDefault();
+      }
+    });
+
+    </script>
+
+    
     <style>
         body {
             font-family: Arial, sans-serif;
